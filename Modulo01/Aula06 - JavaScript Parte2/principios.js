@@ -1,0 +1,22 @@
+var num1 = 9;
+var num2 = 8;
+var num3 = "8";
+
+console.log(num1+num2);
+console.log(num1 + num3);
+console.log(typeof(num1));
+console.log(num1*num2);
+console.log(num1/num2);
+console.log(num1%3);
+console.log(num1++);
+console.log(num1);
+console.log(++num1);
+console.log(num1**2);
+console.log(num1===num1);
+console.log(num1=='9');
+console.log(num1>7);
+console.log(num1>7 && num2<num1);
+console.log(num1>7 && num2>num1);
+console.log(!(num1>7 && num2>num1));
+console.log(num1>7 || num2>num1);
+console.log(num1>7 || num2<num1);
