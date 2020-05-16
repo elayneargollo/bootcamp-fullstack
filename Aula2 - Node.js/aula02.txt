@@ -1,0 +1,33 @@
+INSTALANDO NODE.JS
+===========================
+
+NODE.JS -> https://nodejs.org/en/
+
+1 - INSTALAÇÃO PADRÃO
+
+TESTE 
+===========================
+
+1 - ABRA SEU TERMINAL DE COMANDO.
+2 - DIGITE NODE -V
+3 - DIGITE NPM -V
+4 - DIGITE NODE
+
+
+    PS C:\Users\seusuario> node -v
+    v12.16.3
+    PS C:\Users\seusuario> npm -v
+    6.14.4
+    PS C:\Users\seusuario> node
+    Welcome to Node.js v12.16.3.
+    Type ".help" for more information.
+    > 8 + 9
+    17
+    > 8 ** 2
+    64
+    > 8 * 2
+    16
+    >.exit
+      
+
+
