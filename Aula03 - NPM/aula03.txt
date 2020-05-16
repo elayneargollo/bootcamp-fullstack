@@ -1,0 +1,44 @@
+NPM
+=====================
+
+É UM GERENCIADOR DE PACOTES DO NODE.JS 
+
+BIBLIOTECA LIVE-SERVER
+========================
+BIBLIOTECA MONTA UM SERVIDOR WEB PARA SE TRABALHAR.
+
+
+LIVE-SERVER -> http://tapiov.net/live-server/
+
+1 - NPM INSTALL nome_do_pacote
+
+PS C:\Users\seuusuario> npm install -g live-server
+    npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+    npm WARN deprecated opn@6.0.0: The package has been renamed to `open`
+    npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+    npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+    C:\Users\seuusuario\AppData\Roaming\npm\live-server -> C:\Users\Elayne Natália\AppData\Roaming\npm\node_modules\live-server\live-server.js
+    npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\live-server\node_modules\chokidar\node_modules\fsevents):
+    npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+    + live-server@1.2.1
+
+2 - CRIAR HTML PARA TESTE
+3 - NO TERMINAL, VÁ ATÉ A PASTA EM QUE SALVOU O ARQUIVO .HTML
+4 - DIGITE live-server
+
+    SE APARECER MENSAGEM DE RESTRIÇÃO ....
+
+    1 - DIGITE Get-ExecutionPolicy
+    2 - DIGITE Set-ExecutionPolicy Unrestricted e libere o acesso
+    3 - DIGITE Get-ExecutionPolicy
+
+
+
+
+
+
+
+
+
