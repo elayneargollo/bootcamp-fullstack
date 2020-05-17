@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- HTML é utilizado apenas para conter as informações.-->
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <!-- inserção do caminho do CSS. --->
+    <!-- CSS que dá o estilo a aplicação.-->
+    <!-- Primeiro o CSS que reseta toda a configuração de estilo do navegador -->
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <!-- Depois o CSS que deseja implementar --->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Descrição do titulo da página-->
+    <title>Currículo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+   <h1>Elayne Natália</h1>
+
+    <!-- class é uma forma de agrupar atributos --->
+   <div class="dados-pessoais">
+
+    <img src="./imagens/elayne.jpeg" alt="Elayne Natália" />
+    
+    <!-- ul cria uma lista não ordenada --->
+        <ul class='personal-data'>  <!-- id é usado em atributos únicos --->
+            <!-- li são os itens da lista criada --->
+            <li class='data'>elayne.natalia@outlook.com</li>
+            <li class='data'>28 anos</li>
+            <li class='data'>rua x, numero 7</li>
+            <li class='data'><span id='city'>Salvador</span> - Bahia</li>
+            <li class='data'>(71) 99999 - 999</li>
+        </ul>
+
+    </div>
+
+    <table>
+          <!-- tr é a linha da nossa tabela --->
+        <tr>
+            <!-- th realça em "negrito" --->
+            <th>Tecnologias</th>
+            <th>Experiências</th>
+        </tr>
+        <tr>
+            <!-- td é a coluna da nossa tabela --->
+            <td>Java</td>
+            <td>Iniciante</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Iniciante</td>
+        </tr>
+        <tr>
+            <td><em>C</em></td>
+            <td>Intermediário</td>
+        </tr>
+    </table>
+
+    <!-- criação de link --->
+    <!-- tag _blank é utilizada para que o link abra em outra aba do navegador  --->
+    <p><a href="https://github.com/elayneargollo" target="_blank">GitHub</a></p>
+    <p><a href="https://www.linkedin.com/in/elayne-nat%C3%A1lia/" target="_blank">Linkedln</a></p>
+    
+    <!-- Inclusão do arquivo .js no HTML. -->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

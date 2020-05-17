@@ -1,0 +1,64 @@
+body{
+    padding: 10px; /* É a margem interna. Como se fosse uma caixa.*/ 
+}
+
+/* Todo h1 terá essa mesma configuração */
+h1 {
+    text-align: center;  
+    font-size: 2rem;
+    font-weight: bold;
+    color: deeppink;
+}
+
+/* É a configuração da nossa Class */
+.dados-pessoais{
+    margin: 10px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+/* É a configuração do nosso id */
+#dados{
+    margin-left: 30px;
+    list-style-type: disc;
+}
+
+table{
+    text-align: center;
+}
+
+
+/* É a configuração da nossa tabela, linha, coluna e destaque*/
+table,tr, td,th {
+    padding: 5px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+th {
+    background-color: dimgrey;
+}
+
+/* Todo parágrafo terá essa configuração */
+p{
+    padding: 5px;
+}
+
+img{
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.pesonal-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.emphasis {
+    font-weight: bold;
+    color:blue;
+}

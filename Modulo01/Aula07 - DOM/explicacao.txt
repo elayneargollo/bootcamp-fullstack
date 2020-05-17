@@ -1,0 +1,24 @@
+O que é o DOM ?
+=====================
+
+Document Object Model.
+É uma árvore feita em memória onde temos os elementos html de forma que um elementos seja pai do outro.
+
+Comando de busca do DOM
+=============
+
+1 - querySelector() 
+Utilizamos em elemento, classes e id´s.
+Ele retorna apenas um, se tiver mais de um, ele retorna o primeiro que encontrar.
+Podemos armazenar em uma variável e manipular com JavaScript.
+
+    formato - elemento: document.querySelector('p');
+    formato classe - document.querySelector('.mediawiki');
+    formato id  - document.querySelector('#content');
+
+2 - querySelectorAll()
+Ele retorna mais de um elemento, nesse caso, um NodeList.
+
+textContent => refere-se ao conteudo textual do elemento.
+
+    
