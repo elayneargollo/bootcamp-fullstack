@@ -1,0 +1,54 @@
+ Comandos de Bloco 
+==================================
+
+Proposições lógicas 
+=====================
+
+Jamais será verdadeiro e falsa ao mesmo tempo.
+Geralmente são os operadores lógicos (&&, ||, ! )
+
+Estrutura de decisão 
+=====================
+
+1 - Principal comando é o if e o else.
+=======
+
+No if usamos uma proposição lógica, se essa proposição for verdadeira, o bloco será executado. 
+Dentro do else você não testa nada.
+
+2 - Switch
+======
+
+O switch testa apenas a igualdade. Ele fica mais elegante quando se tem vários valores para serem testado. 
+No caso do switch, o else será o default. 
+
+3 - ternário
+=======
+Operador ternário é útil para substituir um comando if/else. 
+Não é o recomendado mas para operações simples pode ser usado normalmente.
+
+Estrutura de repetição 
+=======
+
+São comandos de bloco que se repetem enquanto uma proposição for verdadeira.
+Em um momento, essa proposição deverá ser falsa para não acontecer um loop infinito.
+
+1 - While
+======
+Enquanto for verdadeiro, executa.
+
+2 - Do ... While
+======
+O teste do verdadeiro ou falso é feito no final.
+Pelo menos uma vez esse bloco será usado.
+
+3 - for
+======
+Em apenas uma linha você define a variavel de controle, a condição de teste e o incremento ou decremento da variavel de controle.
+
+Funções
+=====
+É um bloco de código que executa uma lógica.
+Não é executa imediatamente, ela precisa ser invocada.
+Pode ter ou não parâmentros e retornar ou não um valor.
+Você pode reaproveitar o código e melhora a manutenção do mesmo.
