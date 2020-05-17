@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;  
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+li,ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#menu-text{
+    margin-top: -110px;
+    margin-left:400px;
+}
+
+input[type=range]{
+    display: block;  
+    height: 10px;
+    width: 15%;
+    margin-top: -10px;
+    margin-left: 150px;
+}
+
+input[type=text]{   
+    display: block;  
+    text-align: center;
+  
+    height: 12px;
+    width: 10%;   
+    margin-left: 45px;
+}
+
+.cores-range{
+    margin-left:80px;
+    font-weight: bold;
+}
+
+div.quadrado{
+    line-height:0;
+
+    width:150px;
+    height:150px;
+    border-style: solid;
+
+    margin-top: -10px;
+    margin-left: 200px;
+    margin-right: auto;   
+}

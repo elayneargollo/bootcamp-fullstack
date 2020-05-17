@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Visualização de cores</title> 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h2>Aplicação de cores a partir da escala RGB</h2>
+    <hr>
+ 
+        <div class='cores-range'>
+   
+            <ul class='menu-range'>
+                <li class='data'>(R) Vermelho : <input type='range' min="0" max="255" value='200' onchange="updateCor('corvermelho')" step='1' id='corvermelho'</li>
+                <li class='data'>(G) Verde : <input type='range' min="0" max="255" value='0' onchange="updateCor('corverde')" step='1' id='corverde'</li>
+                <li class='data'>(B) Azul : <input type='range' min="0" max="255" value='0' onchange="updateCor('corazul')" step='1' id='corazul'</li> 
+            </ul>
+
+        </div>
+   
+   
+    <div class="cores-text">
+    
+            <ul id='menu-text'>
+                <li><input type="text" value='0' disabled="disabled" id='textcorvermelho'/> </li>
+                <li><input type="text" value='0' disabled="disabled" id='textcorVerde'/> </li>
+                <li><input type="text" value='0' disabled="disabled" id='textcorAzul'/> </li>
+            </ul>
+      
+    </div>
+
+    <div class='quadrado'</div>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
