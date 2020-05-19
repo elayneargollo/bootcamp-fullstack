@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action='cadastro.php'>
+        <fieldset> 
+            <legend> Formulário Simples</legend>
+            <p>
+                Nome:
+                <input type='text' id='nome' placeholder="Informe o seu nome"/>
+                <input type='submit' value='Cadastrar'>
+                <br>
+                <span id='nameLength'></span>
+            </p>
+            <p>
+                E-mail:
+                <input type='email' name='email' id='email' placeholder="Informe o seu email"/>
+                <input type='submit' value='Enviar'/>
+            </p>
+            <p>
+                <input type='checkbox' id='opcao1' placeholder="Informe o seu nome"/>
+                Marque aqui
+                <input type='checkbox' checked id='opcao2' placeholder="Informe o seu nome"/>
+                Já marcado
+            </p>
+            <p>
+                <input type='radio' name='opcao' id='input1'/>
+                sim
+                <input type='radio' name='opcao' checked id='input2'/>
+                não
+            </p>
+            <p>
+                Escolha uma data:
+                <input type='date' name='data' id='data' placeholder="Informe o seu email"/>
+            </p>
+            <p>
+                <textarea rows='5' cols='20'></textarea>
+            </p>           
+        </fieldset>
+      
+    </form>
+    <script src='./JS/script.js'></script>
+</body>
+</html>
