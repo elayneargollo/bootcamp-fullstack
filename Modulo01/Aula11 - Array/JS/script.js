@@ -9,7 +9,6 @@ window.addEventListener('load', () => {
    doSort();
 });
 
-
 function doSort(){
     const mappedPeople = people.map(person => {
         return {
@@ -63,7 +62,6 @@ function doMap(){
             age: person.dob.age
         };
     });
-
     return nameArray;
 }
 
@@ -71,6 +69,7 @@ function doFilter(){
     const olderThan50 = people.filter(person => {
         return person.dob.age > 50;
     });
+    console.log('idade')
     console.log(olderThan50);
 }
 
