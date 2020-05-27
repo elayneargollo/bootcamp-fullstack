@@ -1,0 +1,88 @@
+li,ul {
+  list-style-type: none;
+}
+
+.tituloPrincipal {
+  padding-top: 20px;
+  text-align: center;
+  color: darkcyan;
+}
+
+.user-container {
+  padding-top: 20px;
+  position: relative;
+
+  width: 450px;
+  height: auto;
+
+  border-radius: 10px;
+  border-color: grey;
+  float: left;
+}
+
+.statistic-container {
+  padding-top: 20px;
+  position: relative;
+
+  height: auto;
+  width: 400px;
+
+  float: left;
+}
+
+.user-list {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+
+  border-width: medium;
+  border-style: solid;
+  border-color: darkturquoise;
+}
+
+.input-field input[type="text"] {
+  box-shadow: 0 1px 0 0 darkcyan;
+
+  border: 0 none;
+  width: 990px;
+  padding-top: 30px;
+  float: left;
+}
+
+.input-field input[type="submit"] {
+  color: ghostwhite;
+  background-color: slategray;
+
+  float: left;
+
+  width: 80px;
+  height: 25px;
+
+  margin-left: 1000px;
+  margin-top: -15px;
+
+  border-top-width: 1px;
+  border-right-width: 1px;
+
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+
+  border-bottom-style: solid;
+  border-radius: 10px 10px;
+}
