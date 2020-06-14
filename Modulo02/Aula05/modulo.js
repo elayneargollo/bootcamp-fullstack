@@ -1,7 +1,7 @@
 var arquivo = require('fs');
 
-var arrayNome = ['Elayne', 'Alison'];
-var nome = ',Nino'
+var arrayNome = ['Uva', 'Manga'];
+var nome = ',Melancia'
 
 exports.ler = function () {
     arquivo.readFile('./nomes.txt', 'utf-8', async function (err,data){ // realiza leitura do arquivo
