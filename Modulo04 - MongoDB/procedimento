@@ -1,0 +1,6 @@
+ Passos para criação do Projeto: 
+ 
+1) Abra o terminal 
+2) Digite no terminal o comando: npm init -y 
+3) Crie o index.js 
+4) Digite no terminal o comando: npm install mongodb 
