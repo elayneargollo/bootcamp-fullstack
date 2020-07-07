@@ -8,3 +8,7 @@
 Para usar o Mongoose ... 
 
 1) Digite no terminal o comando: npm install mongoose
+
+Para usar o Express ...
+
+1) Digite no terminal o comando: npm install express
