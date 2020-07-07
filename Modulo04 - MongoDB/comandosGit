@@ -1,0 +1,57 @@
+Configuração da identidade: 
+
+    git config --global user.name "Seu nome para exibição"
+    git config --global user.email "seu-email@email.com"
+
+Visualiza as configurações existentes:
+
+    git config –-list
+
+Importante: 
+
+    git init: este comando cria um novo repositório local (Head) e inicia a
+    rastreabilidade dos arquivos no diretório. Este comando adiciona uma pasta
+
+    git clone: cria uma cópia local de um projeto que já existe no repositórioEste comando carrega todos os arquivos do projeto, históricos e branches. No
+    exemplo das figuras abaixo foram realizados o clone do projeto do próprio GitConforme mencionamos, o Git é um sistema de código aberto, portantopodemos clonar o projeto do Git e fazer edições caso necessário.
+
+    git add: este comando transfere ou adiciona os novos arquivos na área
+    temporária (Index ou Stage area). A figura abaixo apresenta a adição de um
+    novo arquivo dentro do repositório criado, com isso vamos transferir esse
+    arquivo para a área temporária com o comando git add.
+    
+    git commit: este comando salva o histórico do projeto no momento, ou seja,
+    todas as mudanças que estão na área temporária são confirmadas no
+    repositório local. A execução deste comando abrirá o editor de texto padrão
+    para que seja inputado o comentário desta modificação, que está sendo
+    confirmada, conforme a figura abaixo.
+
+    git status: este comando apresenta o status das alterações que não foraadicionadas, as modificações realizadas e o que está na área temporária. 
+
+    git branch: apresenta os branchs que estão disponíveis no repositório
+    remoto e qual está sendo utilizado atualmente no workspace. Podemos
+    observar que atualmente so existe o branch master que está em uso no
+    workspace (*).
+
+    git checkout: cria um novo branch no repositório local, a partir do branch
+    atual, e modifica o workspace para este novo branch. Com a criação de um
+    novo branch, podemos realizar modificações nos arquivos e comitar neste
+    branch, o branch principal (master) não é modificado.
+
+    git merge: este comando é utilizado para combinar mudanças realizadas em
+    dois branchs distintos. Vamos pegar como exemplo o branch que criamos
+    anteriormente: funcionalidade_XYZ, ele não está no branch master. Se
+    executarmos o merge todas as mudanças serão combinadas no branch atual.
+
+    git pull: tranfere as mudanças realizadas no repositório local para o
+    repositório remoto.
+
+    git push: atualiza o repositório local com a versão mais recente existente no
+    repositório remoto.
+
+    git fetch: atualiza todo o repositório local com todos os commits e versões
+    existentes no repositório remoto.
+
+    git reset: basicamente desfaz as alterações realizadas no workspace para
+    a versão existente no repositório remoto.
+
