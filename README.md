@@ -1,5 +1,5 @@
 # Bootcamp-Fullstack
-Bootcamp Developer FullStack
+Bootcamp Developer FullStack => Tecnologias, bibliotecas e framework
 
 
 - [x] HTML
